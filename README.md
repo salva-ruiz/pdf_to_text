@@ -9,10 +9,10 @@ these can be modified using the `args` keyword in the `opts` parameter.
 
 ## Examples
 
-    # Conversion with default arguments
+    # Converts a PDF file into text with default arguments
     PDFToText.text("file.pdf")
 
-    # Conversion with custom arguments
+    # Converts a PDF file into a stream with custom arguments
     PDFToText.stream("file.pdf", args: ["-raw", "-nopgbrk", "-enc", "UTF-8"])
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc).
